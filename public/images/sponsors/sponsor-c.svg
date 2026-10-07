@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="160" viewBox="0 0 480 160">
+  <rect width="480" height="160" rx="16" fill="#F7F4EF" stroke="#4F2683" stroke-width="4"/>
+  <text x="240" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#4F2683">Sponsor C</text>
+  <text x="240" y="114" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4F2683">TODO: replace logo</text>
+</svg>
