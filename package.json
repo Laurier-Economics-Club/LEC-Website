@@ -1,0 +1,27 @@
+{
+  "name": "lec-website",
+  "version": "1.0.0",
+  "description": "Laurier Economics Club website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laurier-Economics-Club/LEC-Wesbite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laurier-Economics-Club/LEC-Wesbite/issues"
+  },
+  "homepage": "https://github.com/Laurier-Economics-Club/LEC-Wesbite#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
