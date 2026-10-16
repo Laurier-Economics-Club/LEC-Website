@@ -1,0 +1,43 @@
+{
+  "_comment": "TODO: Replace these placeholder events. To add an event, copy one object inside the events array. date must be YYYY-MM-DD. time and location are plain text. link and image are optional — delete those lines if you do not have them. Image files go in public/images/events and the image value starts with /images/events/. The website sorts events into upcoming and past using the date (Toronto time). Delete an object to remove an event. This _comment field is ignored.",
+  "events": [
+    {
+      "title": "Industry Networking Night",
+      "date": "2026-10-21",
+      "time": "6:00–8:00 p.m.",
+      "location": "Lazaridis Hall",
+      "description": "Meet alumni and employers for a short evening of conversations. TODO: replace this placeholder.",
+      "link": "https://example.com/TODO-event-link",
+      "image": "/images/events/networking-night.svg"
+    },
+    {
+      "title": "Case Competition Info Session",
+      "date": "2026-11-04",
+      "time": "5:30–6:30 p.m.",
+      "location": "Schlegel Centre",
+      "description": "Hear how the case team works and how to sign up. TODO: replace this placeholder."
+    },
+    {
+      "title": "Alumni Coffee Chat",
+      "date": "2026-11-18",
+      "time": "12:00–1:00 p.m.",
+      "location": "Terrace Food Court",
+      "description": "An informal lunch with a recent graduate working in economics. TODO: replace this placeholder."
+    },
+    {
+      "title": "Fall Welcome Social",
+      "date": "2026-09-16",
+      "time": "7:00–9:00 p.m.",
+      "location": "Student Quad",
+      "description": "A start-of-term social for new and returning members. TODO: replace this placeholder.",
+      "image": "/images/events/welcome-social.svg"
+    },
+    {
+      "title": "Winter Speaker Series",
+      "date": "2026-02-11",
+      "time": "6:00–7:30 p.m.",
+      "location": "Arts Building",
+      "description": "A guest talk on a current economics topic, followed by questions. TODO: replace this placeholder."
+    }
+  ]
+}

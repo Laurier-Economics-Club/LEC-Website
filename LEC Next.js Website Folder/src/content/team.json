@@ -1,0 +1,49 @@
+{
+  "_comment": "TODO: Replace these placeholder executives with the current team. To add someone, copy one object. To remove someone, delete their object. Photos go in public/images/team. image is the path starting with /images/team/. linkedin is optional — delete that line if they do not have one. This _comment field is ignored.",
+  "members": [
+    {
+      "name": "Jordan Hale",
+      "role": "President",
+      "program": "Economics",
+      "year": "Year 4",
+      "image": "/images/team/jordan-hale.svg",
+      "linkedin": "https://www.linkedin.com/in/TODO"
+    },
+    {
+      "name": "Priya Shah",
+      "role": "VP Events",
+      "program": "Economics",
+      "year": "Year 3",
+      "image": "/images/team/priya-shah.svg"
+    },
+    {
+      "name": "Sam Okonkwo",
+      "role": "VP Finance",
+      "program": "Business",
+      "year": "Year 3",
+      "image": "/images/team/sam-okonkwo.svg",
+      "linkedin": "https://www.linkedin.com/in/TODO"
+    },
+    {
+      "name": "Maya Chen",
+      "role": "VP Marketing",
+      "program": "Communications",
+      "year": "Year 2",
+      "image": "/images/team/maya-chen.svg"
+    },
+    {
+      "name": "Chris Patel",
+      "role": "VP External",
+      "program": "Economics",
+      "year": "Year 4",
+      "image": "/images/team/chris-patel.svg"
+    },
+    {
+      "name": "Riley Nguyen",
+      "role": "VP Internal",
+      "program": "Economics",
+      "year": "Year 2",
+      "image": "/images/team/riley-nguyen.svg"
+    }
+  ]
+}

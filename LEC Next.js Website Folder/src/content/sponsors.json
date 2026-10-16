@@ -1,0 +1,25 @@
+{
+  "_comment": "TODO: Replace these placeholder sponsors. To add one, copy an object. logo is a file in public/images/sponsors, and the value starts with /images/sponsors/. url is where the logo should link. Delete an object to remove a sponsor. If the sponsors array is empty, the home page hides this section. This _comment field is ignored.",
+  "sponsors": [
+    {
+      "name": "TODO Sponsor A",
+      "logo": "/images/sponsors/sponsor-a.svg",
+      "url": "https://example.com/TODO-sponsor-a"
+    },
+    {
+      "name": "TODO Sponsor B",
+      "logo": "/images/sponsors/sponsor-b.svg",
+      "url": "https://example.com/TODO-sponsor-b"
+    },
+    {
+      "name": "TODO Sponsor C",
+      "logo": "/images/sponsors/sponsor-c.svg",
+      "url": "https://example.com/TODO-sponsor-c"
+    },
+    {
+      "name": "TODO Sponsor D",
+      "logo": "/images/sponsors/sponsor-d.svg",
+      "url": "https://example.com/TODO-sponsor-d"
+    }
+  ]
+}
