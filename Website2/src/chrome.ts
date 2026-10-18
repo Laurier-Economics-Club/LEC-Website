@@ -96,11 +96,33 @@ export function mountChrome(): void {
       </div>
       <div>
         <p class="meta-label meta-label--gold">Signals</p>
-        <ul class="footer__links">
-          <li><a href="https://www.instagram.com/lauriereconclub/" target="_blank" rel="noopener noreferrer">Instagram · @lauriereconclub</a></li>
-          <li><a href="https://www.tiktok.com/@lauriereconomicsclub" target="_blank" rel="noopener noreferrer">TikTok · @lauriereconomicsclub</a></li>
-          <li><a href="https://linktr.ee/lauriereconclub" target="_blank" rel="noopener noreferrer">linktr.ee/lauriereconclub</a></li>
-          <li><a href="https://lazsoc.ca/shop/events" target="_blank" rel="noopener noreferrer">Buy tickets · LazSoc</a></li>
+        <ul class="footer__social" aria-label="Social links">
+          <li>
+            <a href="https://www.instagram.com/lauriereconclub/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+              <span>@lauriereconclub</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@lauriereconomicsclub" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="currentColor">
+                <path d="M16.6 2h-3.2v12.35a2.55 2.55 0 1 1-1.8-2.44V8.8a5.75 5.75 0 1 0 4.55 5.62V7.55A6.9 6.9 0 0 0 20 8.9V5.55A6.9 6.9 0 0 1 16.6 2Z"/>
+              </svg>
+              <span>@lauriereconomicsclub</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linktr.ee/lauriereconclub" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="currentColor">
+                <path d="M13.5 3.2a1.5 1.5 0 0 0-3 0v6.38L7.6 6.68a1.5 1.5 0 1 0-2.12 2.12L8.38 11.7H3.2a1.5 1.5 0 0 0 0 3h5.18l-2.9 2.9a1.5 1.5 0 1 0 2.12 2.12l2.9-2.9V22.8a1.5 1.5 0 0 0 3 0v-5.98l2.9 2.9a1.5 1.5 0 1 0 2.12-2.12l-2.9-2.9h5.18a1.5 1.5 0 0 0 0-3h-5.18l2.9-2.9a1.5 1.5 0 1 0-2.12-2.12l-2.9 2.9V3.2Z"/>
+              </svg>
+              <span>lauriereconclub</span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
