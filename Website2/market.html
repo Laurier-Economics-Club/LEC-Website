@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An illustrative supply-and-demand classroom model from the Laurier Economics Club.">
+  <meta name="theme-color" content="#091C15">
+  <meta property="og:title" content="Market · Laurier Economics Club">
+  <meta property="og:description" content="An illustrative supply-and-demand classroom model from the Laurier Economics Club.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <title>Market · Laurier Economics Club</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-chrome="header"></div>
+  <main id="main">
+    <header class="page-hero" data-reveal>
+      <div class="page-hero__inner">
+        <p class="kicker kicker--ink">Market</p>
+        <h1 class="page-hero__title">Set a price. Watch the quantities move.</h1>
+        <p class="page-hero__lede">An illustrative supply-and-demand market. Nothing here is real data.</p>
+      </div>
+    </header>
+
+    <section class="market" id="market">
+      <div class="market__grid">
+        <header class="market__copy" data-reveal>
+          <p class="kicker kicker--ink">Classroom model</p>
+          <p class="section-deck">
+            Move the hypothetical price and see quantity demanded, quantity supplied, and whether the market is short, long, or at rest.
+          </p>
+          <p class="market__eq">
+            Equilibrium in this sketch is where the two schedules cross: the price at which buyers want exactly as much as sellers will offer.
+          </p>
+        </header>
+
+        <div class="market__stage" data-reveal>
+          <div class="market__readout" aria-live="polite">
+            <div>
+              <span class="meta-label">Price P</span>
+              <strong id="market-price">15.0</strong>
+            </div>
+            <div>
+              <span class="meta-label">Qd</span>
+              <strong id="market-qd">40</strong>
+            </div>
+            <div>
+              <span class="meta-label">Qs</span>
+              <strong id="market-qs">40</strong>
+            </div>
+            <div class="market__status">
+              <span class="meta-label">Condition</span>
+              <strong id="market-status">Equilibrium</strong>
+            </div>
+          </div>
+
+          <svg class="market-svg" id="market-svg" viewBox="0 0 480 360" role="img" aria-labelledby="market-svg-title">
+            <title id="market-svg-title">Interactive supply and demand diagram</title>
+            <g id="market-grid"></g>
+            <path id="demand-line" class="market-svg__demand" fill="none" stroke-width="2"/>
+            <path id="supply-line" class="market-svg__supply" fill="none" stroke-width="2"/>
+            <line id="price-line" class="market-svg__price" x1="56" x2="440" y1="0" y2="0"/>
+            <circle id="demand-dot" class="market-svg__dot market-svg__dot--d" r="5"/>
+            <circle id="supply-dot" class="market-svg__dot market-svg__dot--s" r="5"/>
+            <g id="gap-band"></g>
+            <text class="market-svg__label" x="240" y="348">Quantity</text>
+            <text class="market-svg__label" x="16" y="186" transform="rotate(-90 16 186)">Price</text>
+            <text class="market-svg__tag" x="64" y="54">D</text>
+            <text class="market-svg__tag market-svg__tag--gold" x="400" y="54">S</text>
+          </svg>
+
+          <div class="market__control">
+            <label class="market__slider-label" for="price-slider">Hypothetical market price</label>
+            <input id="price-slider" type="range" min="6" max="22" step="0.1" value="15" aria-describedby="market-hint" aria-valuemin="6" aria-valuemax="22">
+            <p class="market__hint" id="market-hint">Illustrative classroom market — not observed prices or quantities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-chrome="footer"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

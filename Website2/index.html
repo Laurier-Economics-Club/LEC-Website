@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Laurier Economics Club at Wilfrid Laurier University. Lead. Empower. Connect.">
+  <meta name="theme-color" content="#091C15">
+  <meta property="og:title" content="Laurier Economics Club | Lead. Empower. Connect.">
+  <meta property="og:description" content="Laurier Economics Club at Wilfrid Laurier University. Lead. Empower. Connect.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <title>Laurier Economics Club | Lead. Empower. Connect.</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-chrome="header"></div>
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__frame">
+        <div class="hero__masthead">
+          <p class="kicker">Laurier Economics Club</p>
+          <p class="hero__edition">Est. 2008 · Wilfrid Laurier University</p>
+        </div>
+
+        <div class="hero__layout">
+          <div class="hero__copy">
+            <p class="hero__index" aria-hidden="true">Vol. 01 / Club</p>
+            <h1 class="hero__title" id="hero-title">
+              <span>Lead.</span>
+              <span>Empower.</span>
+              <span>Connect.</span>
+            </h1>
+            <p class="hero__lede">
+              Connecting Laurier students through economics, research, events, and professional development. Waterloo’s premier economics society since 2008.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--gold" href="/about.html">Explore LEC</a>
+              <a class="btn btn--ghost" href="/events.html">Upcoming Events</a>
+            </div>
+          </div>
+
+          <figure class="hero__viz" aria-labelledby="hero-chart-caption">
+            <svg class="hero-chart" viewBox="0 0 560 460" role="img" aria-labelledby="hero-chart-caption">
+              <title id="hero-chart-caption">Illustrative market signal — an abstract price series with supply and demand curves</title>
+              <defs>
+                <linearGradient id="signalFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#D8B76A" stop-opacity="0.22"/>
+                  <stop offset="100%" stop-color="#D8B76A" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <g class="hero-chart__grid" stroke="#A8B8A5" stroke-opacity="0.18" stroke-width="0.6">
+                <line x1="48" y1="40" x2="48" y2="400"/>
+                <line x1="48" y1="400" x2="530" y2="400"/>
+                <line x1="48" y1="112" x2="530" y2="112"/>
+                <line x1="48" y1="184" x2="530" y2="184"/>
+                <line x1="48" y1="256" x2="530" y2="256"/>
+                <line x1="48" y1="328" x2="530" y2="328"/>
+                <line x1="144" y1="40" x2="144" y2="400"/>
+                <line x1="240" y1="40" x2="240" y2="400"/>
+                <line x1="336" y1="40" x2="336" y2="400"/>
+                <line x1="432" y1="40" x2="432" y2="400"/>
+              </g>
+              <text class="hero-chart__axis" x="48" y="28">INDEX</text>
+              <text class="hero-chart__axis" x="500" y="424">t</text>
+              <path class="hero-chart__demand" d="M70 70 L 500 340" fill="none" stroke="#A8B8A5" stroke-width="1.4"/>
+              <path class="hero-chart__supply" d="M70 340 L 500 80" fill="none" stroke="#D8B76A" stroke-width="1.4"/>
+              <circle cx="285" cy="205" r="4.5" fill="#F5F2E9"/>
+              <text class="hero-chart__note" x="298" y="198">E</text>
+              <path class="hero-chart__fill" d="M70 268 C 130 250, 160 210, 200 230 S 280 300, 330 250 S 420 140, 510 168 L 510 400 L 70 400 Z" fill="url(#signalFill)"/>
+              <path class="hero-chart__signal" d="M70 268 C 130 250, 160 210, 200 230 S 280 300, 330 250 S 420 140, 510 168" fill="none" stroke="#F5F2E9" stroke-width="2.2"/>
+              <g class="hero-chart__dots" fill="#D8B76A">
+                <circle cx="70" cy="268" r="3"/>
+                <circle cx="200" cy="230" r="3"/>
+                <circle cx="330" cy="250" r="3"/>
+                <circle cx="510" cy="168" r="3"/>
+              </g>
+            </svg>
+            <figcaption class="hero__caption">
+              <span class="mono">01</span>
+              Market signal · illustrative
+            </figcaption>
+            <p class="hero__spine" aria-hidden="true">Economics, in motion</p>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-chrome="footer"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
