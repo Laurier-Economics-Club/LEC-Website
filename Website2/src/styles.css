@@ -1396,6 +1396,33 @@ ol {
   background-size: 100% 1px;
 }
 
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin: 0.15rem 0 0.9rem;
+}
+
+.footer__social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: color-mix(in srgb, var(--ivory) 82%, var(--sage));
+  font-size: 0.92rem;
+  line-height: 1.2;
+  transition: color 0.2s var(--ease);
+}
+
+.footer__social a svg {
+  flex-shrink: 0;
+  opacity: 0.92;
+}
+
+.footer__social a:hover {
+  color: var(--gold);
+}
+
 .footer__base {
   width: min(1180px, 100%);
   margin-inline: auto;
