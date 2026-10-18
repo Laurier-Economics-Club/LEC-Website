@@ -44,7 +44,7 @@ document.querySelectorAll<HTMLAnchorElement>(".nav__link").forEach((link) => {
 })
 
 window.addEventListener("resize", () => {
-  if (window.innerWidth > 768) closeMenu()
+  if (window.innerWidth > 1100) closeMenu()
 })
 
 document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((anchor) => {
