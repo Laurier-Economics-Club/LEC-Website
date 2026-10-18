@@ -57,6 +57,9 @@ export function mountChrome(): void {
             </li>`,
             )
             .join("")}
+          <li class="nav__cta-item">
+            <a class="nav__cta" href="/events.html">Upcoming Events</a>
+          </li>
         </ul>
       </nav>
       <a class="header-cta" href="/events.html">Upcoming Events</a>
