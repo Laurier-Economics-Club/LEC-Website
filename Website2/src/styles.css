@@ -1128,6 +1128,11 @@ ol {
   white-space: pre-line;
 }
 
+.team-portfolio-head {
+  max-width: 40rem;
+  margin-bottom: clamp(1.75rem, 3.5vw, 2.75rem);
+}
+
 .team-slide__media {
   margin: 0;
   border-radius: 12px;
