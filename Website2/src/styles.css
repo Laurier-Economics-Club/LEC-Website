@@ -1156,22 +1156,28 @@ ol {
   padding: 0 clamp(0rem, 2vw, 2.5rem);
 }
 
-.profile-link {
-  display: block;
-  color: inherit;
+.profile-social {
+  display: inline-flex;
+  margin-top: 0.55rem;
+  color: var(--evergreen);
   text-decoration: none;
-  border-radius: 999px;
   transition: transform 0.25s var(--ease), opacity 0.25s var(--ease);
 }
 
-.profile-link:hover {
-  transform: translateY(-2px);
-  opacity: 0.92;
+.profile-social svg {
+  display: block;
+  width: 14px;
+  height: 14px;
 }
 
-.profile-link:focus-visible {
+.profile-social:hover {
+  transform: translateY(-2px);
+  opacity: 0.7;
+}
+
+.profile-social:focus-visible {
   outline: 2px solid var(--gold);
-  outline-offset: 4px;
+  outline-offset: 3px;
 }
 
 .profile-card {
@@ -1216,28 +1222,6 @@ ol {
   font-size: 0.92rem;
   line-height: 1.45;
   color: color-mix(in srgb, var(--ink) 68%, var(--sage));
-}
-
-.profile-linkedin {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.55rem;
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--evergreen);
-}
-
-.profile-linkedin svg {
-  flex-shrink: 0;
-}
-
-.profile-linkedin--muted {
-  color: color-mix(in srgb, var(--ink) 45%, var(--sage));
-  text-transform: none;
-  letter-spacing: 0.02em;
 }
 
 .profile-card--static {
